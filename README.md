@@ -9,7 +9,6 @@ List of Files in Repository:
 |File Name|Contents|Task Completed|
 | :----: | :----: | :----: |
 |--------|--------|--------|
-|:---    |:---    |:---    |
 |instructions.txt|A copy of the tasks to be completed and their completion status|    |
 |styles.css|CSS styling code that is used in the HTML document|All|
 |home.html|HTML code that includes: Header defining the page name, Nav Bar, Table of data|Part 1 Task 1, Part 2 Task 2, Part 2 Task 3|
