@@ -1,0 +1,107 @@
+/* This file is for the CSS styling used in the 'entertainment.html' file */
+
+header {
+    text-align: center;
+}
+/* Part 1 Task 1: styled nav bar with hover effects on links */
+a:link {
+    color: blue;
+}
+a:hover {
+    color: white;
+    background-color: blue;
+    text-underline-position: below;
+}
+
+/* Part 1 Task 2: image gallery */
+div.gallery {
+    margin: 5px;
+    border: 2px solid black;
+    width: 200px;
+    display: inline-block;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+width: 100%;
+height: auto;
+}
+div.desc {
+padding: 15px;
+text-align: center;
+}
+
+/* Part 1 Task 3: call to action button with hover effects */
+button {
+    padding: 5px;
+    margin: 10px;
+    font-style: italic;
+}
+button:hover {
+    box-shadow: inset blue;
+    background-color: blueviolet;
+}
+
+/* Part 1 Task 4: interactive rating form styling */
+form.rating {
+    background-color: blue;
+    padding: 10px;
+    margin: 5px;
+    position: absolute;
+}
+form.rating:hover {
+    background-color: green;
+}
+
+/* Part 2 Task 2: enhancing nav list with horizontal design and custom bullet points */
+li {
+    display: inline;
+    padding-right: 10px;
+}
+li::before {
+    content: "★";
+}
+ul {
+    border: 5px;
+    border-style: solid;
+    border-color: darkgreen;
+    list-style-position: inside;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+/* Part 2 Task 1: interactive user registration form styling */
+form.registration {
+    border: black solid 5px;
+    background-color: green;
+    padding: 10px;
+    margin: 5px;
+    position: absolute;
+}
+form.registration:hover {
+    background-color: blue;
+}
+
+/* Part 2 Task 3: styling table display */
+table, th, td {
+    border: 5px red double; 
+}
+th {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+}
+tr:nth-child(even) {background-color: yellow; color: blue;}
+tr:nth-child(odd) {background-color: green;}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+h2 {text-align: center;}
+tr {
+    padding: 10px;
+    margin: 10px;
+}
